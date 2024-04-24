@@ -54,7 +54,7 @@ const SubmitExp = async () =>{
         heroLv = "Nível não determinado";
     }
 
-    displayText.innerText = ` ${heroName}, A sua experiencia atual é ${heroExp}, e voce esta no nivel: ${heroLv}` 
+    displayText.innerText = `O herói de nome ${heroName}, está no nivel de: ${heroLv}` 
     input.disabled = true
 
     submit.value = "Recomeçar"
